@@ -19,18 +19,15 @@ An overview of LangGraph, its purpose, and how it enhances the development of AI
 - Debugging and auditing with state history tracking.
 - Revisiting past states to refine AI responses.
 
-## 6. Parallelization
-- Executing multiple tasks concurrently for efficiency.
-- Optimizing workflows by leveraging parallel execution.
+## 6. Subs-Graph
+Let's consider a toy example:
 
-## 7. Map Reduce
-- Distributing tasks across multiple agents.
-- Aggregating results efficiently for large-scale data processing.
+* I have a system that accepts logs
+* It performs two separate sub-tasks by different agents (summarize logs, find failure modes)
+* I want to perform these two operations in two different sub-graphs.
 
-## 8. Long-Term Memory
-- Implementing memory persistence for long-term interactions.
-- Strategies for retrieving and updating stored information.
+The most critical thing to understand is how the graphs communicate! 
 
-## 9. Deployment
+## 7. Deployment (LangGraph Studio)
 - Deploying LangGraph-based applications in production.
 - Best practices for scalability, monitoring, and performance optimization.
