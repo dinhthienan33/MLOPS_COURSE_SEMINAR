@@ -28,6 +28,9 @@ Let's consider a toy example:
 
 The most critical thing to understand is how the graphs communicate! 
 
-## 7. Deployment (LangGraph Studio)
+## 7. Demo (LangGraph Studio)
 - Deploying LangGraph-based applications in production.
 - Best practices for scalability, monitoring, and performance optimization.
+- Simple Agent with memory
+
+Slide link (Canva) :https://www.canva.com/design/DAGhm-rYgK8/at8laquRDgwGl2qJahMhRw/view?utm_content=DAGhm-rYgK8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hcd167de6e4
